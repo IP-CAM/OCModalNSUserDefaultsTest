@@ -14,6 +14,7 @@
 		FDA29A7F1A4459DB00A3126F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA29A7E1A4459DB00A3126F /* Images.xcassets */; };
 		FDA29A821A4459DB00A3126F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA29A801A4459DB00A3126F /* LaunchScreen.xib */; };
 		FDA29A8E1A4459DB00A3126F /* OCModalNSUserDefaultsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA29A8D1A4459DB00A3126F /* OCModalNSUserDefaultsTestTests.m */; };
+		FDA29A991A445BDA00A3126F /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA29A981A445BDA00A3126F /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		FDA29A871A4459DB00A3126F /* OCModalNSUserDefaultsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCModalNSUserDefaultsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA29A8C1A4459DB00A3126F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDA29A8D1A4459DB00A3126F /* OCModalNSUserDefaultsTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCModalNSUserDefaultsTestTests.m; sourceTree = "<group>"; };
+		FDA29A971A445BDA00A3126F /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		FDA29A981A445BDA00A3126F /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				FDA29A781A4459DB00A3126F /* ViewController.h */,
 				FDA29A791A4459DB00A3126F /* ViewController.m */,
 				FDA29A7B1A4459DB00A3126F /* Main.storyboard */,
+				FDA29A971A445BDA00A3126F /* SettingsViewController.h */,
+				FDA29A981A445BDA00A3126F /* SettingsViewController.m */,
 				FDA29A7E1A4459DB00A3126F /* Images.xcassets */,
 				FDA29A801A4459DB00A3126F /* LaunchScreen.xib */,
 				FDA29A711A4459DB00A3126F /* Supporting Files */,
@@ -222,6 +227,7 @@
 				FDA29A7A1A4459DB00A3126F /* ViewController.m in Sources */,
 				FDA29A771A4459DB00A3126F /* AppDelegate.m in Sources */,
 				FDA29A741A4459DB00A3126F /* main.m in Sources */,
+				FDA29A991A445BDA00A3126F /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

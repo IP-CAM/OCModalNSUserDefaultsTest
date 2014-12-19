@@ -10,6 +10,13 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *stringLabel;
+@property (weak, nonatomic) IBOutlet UILabel *boolLabel;
+
+@property (weak, nonatomic) IBOutlet UIButton *settingsBtn;
+- (IBAction)settingsAction:(id)sender;
+
+
 
 @end
 
