@@ -87,7 +87,7 @@
         // Switch_Status というキーにスイッチの状態を保存
         [defaults setBool:YES forKey:@"Switch_Status"];
     } else {
-        // Switch_Status というキーに文字列を保存
+        // Switch_Status というキーにスイッチの状態を保存
         [defaults setBool:NO forKey:@"Switch_Status"];
     }
     // 値をすぐに反映させる
