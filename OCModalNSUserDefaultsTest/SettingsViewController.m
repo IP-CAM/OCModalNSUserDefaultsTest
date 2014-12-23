@@ -54,7 +54,7 @@
     [self.view addSubview:_textField];
     
     // Switch ver
-    [_switchBtn addTarget:self action:@selector(textFieldAction:)
+    [_switchBtn addTarget:self action:@selector(switchAction:)
          forControlEvents:UIControlEventValueChanged];
     [self.view addSubview:_switchBtn];
     

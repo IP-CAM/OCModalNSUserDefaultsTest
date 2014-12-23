@@ -16,7 +16,5 @@
 @property (weak, nonatomic) IBOutlet UIButton *settingsBtn;
 - (IBAction)settingsAction:(id)sender;
 
-
-
 @end
 
